@@ -60,14 +60,17 @@ Success Respone
 1: Inserting a New Name
 Suppose you want to add a new name to your database. You can use the "Insert Name" endpoint to achieve this. Let's say you want to add the name "Manny Hortizuela."
 http://127.0.0.1/api/publi/postName
+
 2. If you want to retrieve a list of names from the database. You can use the "Get Names" endpoint for this purpose.
-http://127.0.0.1/api/publi/getName.
+http://127.0.0.1/api/publi/getName
+
 3.Updating a Name
 Suppose you need to update a name in the database. You can use the "Update Name" endpoint. For example, you want to change "Manny Hortizuela" to "Manuel Hortizuela".
-http://127.0.0.1/api/publi/updateName.
+http://127.0.0.1/api/publi/updateName
+
 4.Deleting a Name
 If you need to remove a name from the database, you can use the "Delete Name" endpoint. For instance, you want to delete "Manuel Hortizuela."
-http://127.0.0.1/api/publi/deleteName.
+http://127.0.0.1/api/publi/deleteName
 
 ## License
 No License
